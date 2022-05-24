@@ -1,0 +1,231 @@
+
+*{
+    margin: 10px 0 0 0;
+    padding: 0;
+    
+}
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+header h1 img{
+    margin-top: 2rem;
+    font-size: 2.75rem;
+
+    
+}
+.header-productos nav ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0px 8px 0px 8px
+
+}
+.header-productos nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-descrip{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-main{
+    height: auto;
+    width: 50%;
+    margin: 2rem 0 2rem 0;
+} 
+.bombilla{
+    height: auto;
+    width: 50%;
+    margin: 2rem 0 2rem 0;
+}
+.matera{
+    height: auto;
+    width: 50%;
+    margin: 2rem 0 2rem 0;
+}
+.footer-home div{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-home p{
+    display: flex;
+    justify-content: center;
+}
+.footer-home img{
+    margin: 10px 7px 15px 7px;
+}
+.insta{
+    width: 1rem;
+
+}
+@media screen and (max-width:768px){
+    .header-flex{
+        display: flex;
+        flex-direction: column;
+    }
+}
+    
+
+
+/* Pagina productos */
+
+
+.header-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.header-productos nav ul li{
+    list-style: none;
+    display: inline-block;
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0px 8px 0px 8px
+
+}
+.header-productos nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.productos{
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-productos{
+    display: grid;
+    grid-template-columns: repeat(4, 0.5fr);
+    grid-template-areas: "img0 img1 img2 img3 img4";
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.img-0{
+    width: 15rem;
+}
+.img-1{
+    width: 15rem;
+}
+.img-2{
+    width: 15rem;
+}
+.img-3{
+    width: 15rem;
+}
+.img-4{
+    width: 15rem;
+    padding: 1rem;
+}
+
+
+.footer-productos{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-home{
+    padding: 5rem;
+}
+.footer-productos img{
+    margin: 10px 7px 15px 7px;
+   
+}
+
+
+@media screen and (max-width:768px){
+    .header-productos{
+        display: flex;
+        flex-direction: column;
+
+        
+    }
+    
+    .main-productos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "img0" 
+        "img1" 
+        "img2" 
+        "img3" 
+        "img4";
+        
+    }
+    .header-productos nav ul li{
+
+        margin: 0px 5px 0px 5px
+    }
+    .producto{
+        margin-top: 2rem;
+    }
+
+    .footer-productos div{
+        display: flex;
+        justify-content: center;
+        margin: 3rem;
+    }
+    .footer-productos p{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header-descrip{
+        margin: 1rem;
+    }
+    .header-productos nav ul li{
+
+        font-size: 0.6rem;
+        margin: 0px 1px 0px 1px;
+    }
+    .productos{
+        padding: 2rem;
+        
+    }
+    .footer-home p{
+        font-size: 0.8rem;
+    }
+    .parrafo{
+        display: contents;
+        align-items: center;
+        
+    }
+    .como-comprar{
+        display: contents;
+    }
+
+    
+}
+/* nosotros */
+
+.parrafo{
+    padding: 2rem;
+    margin: 0 15rem 0 15rem ;
+}
+
+/* como comprar */
+
+.como-comprar{
+    margin: 0 5rem 0 5rem;
+}
+
+/* contacto */
+.encuesta{
+    padding: 100%;
+}
